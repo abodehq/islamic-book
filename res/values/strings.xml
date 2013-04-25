@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MP3Quran!</string>
+    <string name="app_name">المكتبة الإسلامية</string>
+    <string name="download_title">بدء تحميل</string>
+    <string name="download_path_msg">--sdcard/المكتبة_الأسلامية/--</string>
+    <string name="download_finish">تم تحميل الكتاب بنجاح</string>
+    
+    <string name="context_menu_title">قائمة الكتاب</string>
+    <string name="context_menu_read_book">إقرأ الكتاب</string>
+    <string name="context_menu_add_fav">إضافة  الكتاب الى المفضلة</string>
+    <string name="context_menu_download">تحميل الكتاب</string>
+    
+    <string name="dialog_add_fav_title">إضافة الى المفضلة</string>
+    <string name="dialog_fav_empty">لا يوجد مفضلات جديدة</string>
+    <string name="dialog_fav_add">تم اضافة كتاب جديد الى المفضلة</string>
+    
+    
+    <string name="context_menu_author_books">استعراض كتب المؤلف</string>
+    <string name="context_menu_author_info">معلومات عن المؤلف</string>
+     <string name="context_menu_author_title">قائمة المؤلف</string>
+   	<string name="author_no_info">لا يوجد معلومات</string>
+   	
+   	<string name="context_menu_publisher_books">استعراض كتب دار الناشر</string>
+    <string name="context_menu_publisher_info">معلومات عن دار الناشر</string>
+    <string name="context_menu_publisher_title">قائمة دار النشر</string>
+    <string name="publisher_no_info">لا يوجد معلومات</string>
+    
+    <string name="fav">المفضلات</string>
+    <string name="fav_save">حفظ</string>
+    <string name="fav_cancel">إلغاء</string>
+    <string name="fav_show_books">أستعراض الكتب</string>
+    <string name="fav_delete">حذف  المفضلة</string>
+    <string name="fav_rename">إعادة تسمية المفضلة</string>
+    <string name="fav_rename_to">أعادة تسمية </string>
+    <string name="fav_rename_success">تم تعديل اسم المفضلة بنجاح</string>
+    <string name="fav_empty">مفضلة خالية</string>
+    <string name="fav_delete_success">لقد تم حذف المفضلة بنجاح</string>
+     <string name="fav_new">مفضلة جديدة</string>
+    <string name="fav_add_success">تم إصافة مفضلة جديدة بنجاح</string>
+    
+    <string name="fav_show_book">إستعراض الكتاب</string>
+    <string name="fav_delete_book">حذف  من  المفضلة</string>
+    <string name="fav_delete_book_success">لقد تم حذف الكتاب بنجاح</string>
+</resources>

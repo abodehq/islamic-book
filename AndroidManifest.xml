@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.mos7af.islamicbooks"
+      android:versionCode="5"
+      android:versionName="2.0"
+       
+      >
+    <uses-sdk android:minSdkVersion="8" />
+
+    <application android:icon="@drawable/icon" android:label="@string/app_name" android:theme="@android:style/Theme.Black.NoTitleBar">
+        <activity android:name=".IslamicBooks"
+                  android:label="@string/app_name" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+       
+        <activity android:name="com.mos7af.islamicbooks.PlayerActivity" />
+         <activity android:name="com.mos7af.islamicbooks.ContentActivity" />
+    
+        <activity android:name="com.mos7af.islamicbooks.SurasActivity" />
+   
+        <activity android:name="com.mos7af.islamicbooks.BooksActivity" />
+         <activity android:name="com.mos7af.islamicbooks.AuthorsActivity" />
+          <activity android:name="com.mos7af.islamicbooks.PublishersActivity" />
+          <activity android:name="com.mos7af.islamicbooks.AuthorsBooksActivity" />
+          <activity android:name="com.mos7af.islamicbooks.PublishersBooksActivity" />
+		
+		  <activity
+            android:name="com.mos7af.islamicbooks.PlayerPlayListActivity" />
+         
+		  	  <activity
+            android:name="com.mos7af.islamicbooks.PlayListSurasActivity" />
+              <activity
+            android:name="com.mos7af.islamicbooks.PlaylistActivity" />
+         
+    </application>
+    <uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	
+</manifest>
